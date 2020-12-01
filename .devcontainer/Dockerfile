@@ -1,6 +1,6 @@
 # [Choice] Alpine version: 3.12, 3.11, 3.10
 ARG VARIANT=3.12
-FROM alpine-${VARIANT}
+FROM alpine:latest
 
 # ** [Optional] Uncomment this section to install additional packages. **
 # RUN apk update \
